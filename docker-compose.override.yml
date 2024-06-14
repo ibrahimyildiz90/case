@@ -1,0 +1,7 @@
+version: "3.8"
+services:
+  itemRedis:
+    container_name: itemRedis
+    restart: always
+    ports:
+      - "6379:6379"
